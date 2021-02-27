@@ -1,41 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 /* Palette of favourite Colors */
-.primary-color {
-  background: #303841;
+:root {
+  --primary-background-color: #303841;
+  --secondary-background-color: #00adb5;
+  --third-background-color: #eeeeee;
+  --fourth-background-color: #ff5722;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --divider-color: #bdbdbd;
+  --icon-color: #000000;
 }
 
-.secondary--color {
-  background: #00adb5;
-}
-
-.third-color {
-  background: #eeeeee;
-}
-
-.fourth-color {
-  background: #ff5722;
-}
-
-.primary-text-color {
-  color: #212121;
-}
-
-.secondary-text-color {
-  color: #757575;
-}
-
-.divider-color {
-  color: #bdbdbd;
-}
-
-.icon-color {
-  color: #000000;
-}
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
+  background: var(--third-background-color);
+  color: var(--primary-text-color);
+  line-height: 1.6;
   font-family: 'Roboto', sans-serif;
   margin: 0;
   display: flex;
@@ -44,4 +30,21 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+}
+ul {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+
+a {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.4;
 }
