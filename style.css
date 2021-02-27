@@ -2,11 +2,11 @@
 
 /* Palette of favourite Colors */
 :root {
-  --primary-background-color: #303841;
+  --primary-background-color: #b21960;
   --secondary-background-color: #00adb5;
   --third-background-color: #eeeeee;
   --fourth-background-color: #ff5722;
-  --primary-text-color: #212121;
+  --primary-text-color: #49e39c;
   --secondary-text-color: #757575;
   --divider-color: #bdbdbd;
   --icon-color: #000000;
@@ -19,7 +19,7 @@
 }
 
 body {
-  background: var(--third-background-color);
+  background: var(--primary-background-color);
   color: var(--primary-text-color);
   line-height: 1.6;
   font-family: 'Roboto', sans-serif;
